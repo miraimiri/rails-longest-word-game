@@ -1,0 +1,11 @@
+<h1>This is the SCORE view.</h1>
+<div>
+  <p>Your guess:</p>
+  <%= params[:word] %>
+  <p>Your result:</p>
+  <%= @result %>
+</div>
+
+<div>
+  <%= link_to "Play again.", new_path %>
+</div>
